@@ -5,9 +5,9 @@ const  index = ()=>{
     return(
         <View style={style.container}>
             <Text>Index Page</Text>
-            <Button style={style.m} title="Go to Details" onPress={()=>router.push("/details")}/>
-            <Link href="/profile">
-            go to Profile
+            <Button style={style.m} title="Go to User 1" onPress={()=>router.push("/user/1")}/>
+            <Link href="/user/1">
+            go to user 1
             </Link>
         </View>
     )
